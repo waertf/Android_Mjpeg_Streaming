@@ -41,7 +41,8 @@ public class MainActivity  extends Activity implements OnCancelListener  {
         super.onCreate(icicle);
                 //sample public cam
       //  String URL = "http://shibuya.ipcam.jp:60001/nphMotionJpeg?Resolution=320x240&Quality=Standard"; 
-        String URL = "http://192.168.2.113:1500/a.mjpeg";
+        //String URL = "http://192.168.2.113:1500/a.mjpeg";
+        String URL="http://mjpeg.sanford.io/count.mjpeg";
         
         final String path = Environment.getExternalStorageDirectory().toString();
         // shibuya.ipcam.jp :: Adresse IP 114.145.160.176 port : 60001
